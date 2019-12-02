@@ -1,0 +1,66 @@
+/* 版心 */
+.container {
+
+    width: 1410px;
+    margin: 0 auto;
+}
+
+/* 去除所有a的下划线 */
+a:hover {
+
+    text-decoration: none;
+}
+
+a:visited {
+
+    text-decoration: none;
+}
+
+a:active {
+
+    text-decoration: none;
+}
+
+a:visited {
+
+    text-decoration: none;
+}
+
+/* 字体图标 */
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/iconfont.woff2') format('woff2'),
+        url('../fonts/iconfont.woff') format('woff'),
+        url('../fonts/iconfont.ttf') format('truetype'),
+        url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-diqiu:before {
+    content: "\e616";
+}
+
+.icon-jiantou:before {
+    content: "\e612";
+}
+
+.icon-dianhua:before {
+    content: "\e6f9";
+}
+
+.icon-biaoqing:before {
+    content: "\e621";
+}
+
+.icon-changyongtubiao-xianxingdaochu-zhuanqu-:before {
+    content: "\e76a";
+}
