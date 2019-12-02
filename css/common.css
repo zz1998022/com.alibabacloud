@@ -5,6 +5,25 @@
     margin: 0 auto;
 }
 
+/* 清除浮动 */
+.clearfix::before
+.clearfix::after {
+
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+
+    clear: both;
+}
+
+/* 兼容IE6,IE7 */
+.clearfix {
+
+    *zoom: 1;
+}
+
 /* 去除所有a的下划线 */
 a:hover {
 
