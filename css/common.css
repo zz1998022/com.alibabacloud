@@ -6,22 +6,20 @@
 }
 
 /* 清除浮动 */
-.clearfix::before
-.clearfix::after {
-
-    content: "";
-    display: table;
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  /* 既让伪元素变成块级 还让他们排在一行 */
+  display: table;
 }
 
-.clearfix::after {
-
-    clear: both;
+.clearfix:after {
+  clear: both;
 }
 
-/* 兼容IE6,IE7 */
+/* 兼容ie 6 7 */
 .clearfix {
-
-    *zoom: 1;
+  *zoom: 1;
 }
 
 /* 去除所有a的下划线 */
