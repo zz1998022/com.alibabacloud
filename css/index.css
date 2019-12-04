@@ -30,14 +30,16 @@
 }
 
 .topnav-right a,
-.topnav-right input {
+.topnav-right input,
+.topnav-right-language {
 
     display: block;
     float: left;
     margin: 0 0 0 45px;
 }
 
-.topnav-right a {
+.topnav-right a,
+.topnav-right-language {
 
     font-size: 14px;
     line-height: 60px;
@@ -93,6 +95,71 @@
 
     transition: 0.5s all;
     transform: rotate(180deg);
+}
+
+.topnav-right-language-tab {
+
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: 60px;
+    right: -50px;
+    width: 198px;
+    height: 582px;
+    background-color: #14171a;
+    padding-top: 5px;
+    /* padding-left: 20px; */
+    box-sizing: border-box;
+    transition: .5s all;
+}
+
+.topnav-right-language:hover .topnav-right-language-tab {
+
+    transition: .5s all;
+    display: block;
+}
+
+.topnav-right-language-tab1 {
+
+    border-bottom: 1px solid #373d41;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.topnav-right-language-tab1 a {
+
+    margin: 0;
+    line-height: 30px;
+}
+
+.topnav-right-language-tab1 .selectd-frist span:last-child {
+
+    margin-left: 23px;
+}
+
+.topnav-right-language-tab1 .selectd span:first-child {
+
+    margin-left: 100px;
+}
+
+.topnav-right-language-tab2 {
+
+    padding-left: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.topnav-right-language-tab2 a {
+
+    width: 177px;
+    margin: 0;
+    line-height: 30px;
+}
+
+.topnav-right-language-tab2 .selectd-frist span:last-child {
+    float: right;
+    margin-right: 23px;
 }
 
 /* 2.tab栏部分 */
@@ -202,6 +269,7 @@
     transition: .5s all;
     color: #ff700b;
 }
+
 .banner-text-start:hover {
 
     color: #ff700b;
@@ -216,7 +284,7 @@
 
 .banner-point li {
 
-    
+
     float: left;
     width: 48px;
     height: 2px;
@@ -251,7 +319,7 @@
     width: 275px;
     height: 124px;
     border-left: 1px solid #ebecec;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .free-list li:last-child {
@@ -267,6 +335,7 @@
     height: 124px;
     padding: 28px 20px 20px;
     box-sizing: border-box;
+    transition: .5s all;
 }
 
 .free-list a h3 {
@@ -280,15 +349,168 @@
     margin-top: 10px;
     color: #999999;
     font-size: 14px;
+    transition: .5s all;
 }
 
 .free-list a:hover {
 
+    transition: .5s all;
     background-color: #ff6a00;
     color: #fff;
 }
 
 .free-list a:hover p {
 
+    transition: .5s all;
     color: #fff;
+}
+
+/* 6.轮播图2 */
+.banner2 {
+
+    position: relative;
+    height: 250px;
+    background-color: #f5f5f5;
+    border-top: 1px solid transparent;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.banner2 .container {
+
+    height: 250px;
+}
+
+.banner-left-jiantou {
+
+    float: left;
+    line-height: 250px;
+}
+
+.banner2-left-jiantou {
+
+    float: left;
+    width: 40px;
+    line-height: 180px;
+    font-size: 40px;
+}
+
+.banner2-content {
+
+    margin-left: 65px;
+    
+}
+
+.banner2-content li {
+
+    float: left;
+    position: relative;
+    width: 423.3px;
+    height: 180px;
+    box-sizing: border-box;
+    
+}
+
+.banner2-content-text {
+
+    display: block;
+    padding-left: 150px;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+.banner2-content-text h3 {
+
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.banner2-content-text p {
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.banner2-content-text h4 {
+
+    font-size: 14px;
+    color: #ff700b;
+    font-weight: 300;
+}
+
+.banner2-content img {
+
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 15px;
+}
+
+.banner2-right-jiantou {
+
+    float: right;
+    width: 40px;
+    line-height: 180px;
+    font-size: 40px;
+}
+
+.banner2-left-jiantou a:hover,
+.banner2-right-jiantou a:hover {
+
+    color: #ff700b;
+}
+
+/* 产品服务部分 */
+.service {
+
+    height: 979px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.service-title {
+
+    float: left;
+}
+
+.service-title h3 {
+
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.service-text {
+
+    float: right;
+}
+
+.service-text p {
+
+    font-size: 16px;
+    color: #999999;
+    margin-bottom: 14px;
+}
+
+.service-text h4 {
+
+    font-size: 16px;
+    color: #ff700b;
+    font-weight: 400;
+}
+
+.service-img {
+
+    margin-top: 50px;
+}
+
+.service-img a {
+
+    display: block;
+    float: left;
+    width: 276px;
+    height: 141px;
+    background-color: pink;
 }
