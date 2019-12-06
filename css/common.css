@@ -62,22 +62,39 @@ a:visited {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-diqiu:before {
+.icon-linkedin:before {
+    content: "\e764";
+  }
+  
+  .icon-facebook:before {
+    content: "\e676";
+  }
+  
+  .icon-diqiu:before {
     content: "\e616";
-}
-
-.icon-jiantou:before {
+  }
+  
+  .icon-jiantou:before {
     content: "\e612";
-}
-
-.icon-dianhua:before {
+  }
+  
+  .icon-twitter:before {
+    content: "\e655";
+  }
+  
+  .icon-dianhua:before {
     content: "\e6f9";
-}
-
-.icon-biaoqing:before {
+  }
+  
+  .icon-biaoqing:before {
     content: "\e621";
-}
-
-.icon-changyongtubiao-xianxingdaochu-zhuanqu-:before {
+  }
+  
+  .icon-changyongtubiao-xianxingdaochu-zhuanqu-:before {
     content: "\e76a";
-}
+  }
+  
+  .icon-google:before {
+    content: "\e6fc";
+  }
+  
