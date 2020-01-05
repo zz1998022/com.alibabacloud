@@ -1,0 +1,397 @@
+* {
+
+    box-sizing: border-box;
+}
+
+// 头部
+header {
+
+    width: 100%;
+    height: 60.8px;
+    background-color: #373b3e;
+
+    .header-logo {
+
+        float: left;
+        width: 148.28px;
+        height: 100%;
+        margin-left: 15px;
+
+        a {
+
+            display: block;
+            width: 100%;
+            height: 100%;
+
+            img {
+
+                width: 100%;
+            }
+        }
+    }
+
+    .header-left {
+
+        float: right;
+        line-height: 60.8px;
+        margin-right: 15px;
+
+        a {
+
+            color: #fff;
+            margin-right: 35px;
+            font-size: 14px;
+
+            i {
+
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+// 登录框
+main {
+
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 400px;
+
+    h2 {
+
+        font-size: 24px;
+        margin: 65px auto 0;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    h3 {
+
+        text-align: center;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    .user-title {
+
+        margin: 11px auto 25px auto;
+
+    }
+
+    h4 {
+
+        font-size: 11px;
+        color: #C3C5C6;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .user-table {
+
+        margin: 0 auto;
+        padding-left: 30px;
+
+    }
+
+    .country {
+
+        div {
+
+            width: 398px;
+            height: 41.6px;
+            padding-left: 12px;
+            padding-right: 12px;
+            line-height: 41.6px;
+            border: 1px solid #d7d8d9;
+            font-size: 14px;
+        }
+
+        p {
+
+            margin-top: 10px;
+            font-size: 14px;
+            color: #52c1e0;
+        }
+    }
+
+    .username {
+
+        width: 398px;
+        margin-top: 30px;
+
+        input {
+
+            width: 100%;
+            height: 41.6px;
+            border: 1px solid #d7d8d9;
+            padding-left: 12px;
+            font-size: 14px;
+        }
+
+        input::-webkit-input-placeholder,
+        textarea::-webkit-input-placeholder {
+            /* WebKit browsers */
+            color: #666;
+        }
+
+        input:-moz-placeholder,
+        textarea:-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: #666;
+        }
+
+        input::-moz-placeholder,
+        textarea::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: #666;
+        }
+
+        input:-ms-input-placeholder,
+        textarea:-ms-input-placeholder {
+            /* Internet Explorer 10+ */
+            color: #666;
+        }
+
+    }
+
+    .passwd {
+
+        width: 398px;
+        margin-top: 20px;
+
+        input {
+
+            width: 100%;
+            height: 41.6px;
+            border: 1px solid #d7d8d9;
+            padding-left: 12px;
+            font-size: 14px;
+        }
+
+    }
+
+    .rpasswd {
+
+        width: 398px;
+        margin-top: 20px;
+
+        input {
+
+            width: 100%;
+            height: 41.6px;
+            border: 1px solid #d7d8d9;
+            padding-left: 12px;
+            font-size: 14px;
+        }
+
+    }
+
+    .xieyi {
+
+        width: 398px;
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .reg-btn {
+
+        margin-top: 40px;
+        width: 398px;
+
+        a {
+
+            display: block;
+            width: 100%;
+            height: 41.6px;
+            background-color: #00c1de;
+            color: #fff;
+            line-height: 41.6px;
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+}
+
+/* 关于部分 */
+.about {
+
+    padding-top: 35px;
+    background-color: #373d41;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 20px;
+}
+
+.about-list {
+
+    padding-bottom: 20px;
+    border-bottom: 1px solid #73787a;
+}
+
+.about-list div {
+
+    float: left;
+    width: 14.5%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-list div dl dt a {
+
+    color: #fff;
+    font-size: 14px;
+}
+
+.about-list div dl dt {
+
+    line-height: 28px;
+}
+
+.about-list div dl dd {
+
+    line-height: 28px;
+}
+
+.about-list div dl dd a {
+    
+    color: #c1c3c4;
+    font-size: 14px;
+}
+
+.about-list div:last-child img {
+
+    display: block;
+    height: 54px;
+}
+
+.about-list div:last-child p {
+
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.about-list div:last-child div {
+
+    padding: 0;
+    width: auto;
+}
+
+.about-list div:last-child div a {
+
+    display: block;
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    background-color: #73777a;
+    text-align: center;
+    line-height: 32px;
+    color: #afb1b3;
+    border-radius: 50%;
+    transition: .3s all;
+}
+
+.about-list div:last-child div a:hover {
+
+    transition: .3s all;
+    background-color: #ff6a00;
+    color: #fff;
+}
+
+.about-list-btm {
+
+    padding-top: 30px;
+}
+
+.about-list-btm-show {
+
+    margin-bottom: 10px;
+}
+
+.about-list-btm-show p {
+
+    float: left;
+    width: 200px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.about-list-btm-show ul {
+
+    float: left;
+}
+
+.about-list-btm-show ul li {
+
+    float: left;
+    margin-right: 40px;
+}
+
+.about-list-btm-show ul li a {
+
+    color: #c3c4c6;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.about-list-btm-show:last-child ul li {
+
+    margin-right: 10px;
+}
+
+/* 页脚部分 */
+.footer {
+
+    padding-bottom: 25px;
+    background-color: #4b5054;
+}
+
+.footer .container {
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-about-us {
+
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+
+.footer-about-us a {
+
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    margin-right: 50px;
+}
+
+.footer-links {
+
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+
+    display: block;
+    float: left;
+    margin-right: 5px;
+    font-size: 14px;
+    color: #c7c9ca;
+}
+
+.footer-links a:hover {
+
+    color: #ff6141;
+}
+
+.footer-banquan {
+
+    font-size: 14px;
+    color: #c7c9ca;
+}
