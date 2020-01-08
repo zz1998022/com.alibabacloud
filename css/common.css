@@ -22,6 +22,11 @@
   *zoom: 1;
 }
 
+li {
+
+  list-style: none;
+}
+
 /* 去除所有a的下划线 */
 a:hover {
 
